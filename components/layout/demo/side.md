@@ -54,7 +54,6 @@ class SiderDemo extends React.Component {
             Ant Design ©2016 Created by Ant UED
           </Footer>
         </Layout>
-      </Layout>
         <Sider
           collapsible
           collapsed={this.state.collapsed}
@@ -85,6 +84,7 @@ class SiderDemo extends React.Component {
             </Menu.Item>
           </Menu>
         </Sider>
+      </Layout>
     );
   }
 }
